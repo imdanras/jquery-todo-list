@@ -1,0 +1,24 @@
+body {
+  text-align:center;
+}
+
+.ulClass {
+  width: 200px;
+  display:inline-block;
+  border: 1px solid black;
+}
+
+#list {
+  float: left;
+  list-style-type: none;
+  padding: 0px;
+}
+
+#newBtn {
+  float: right;
+}
+
+.xBtn {
+  /*float: right;*/
+  display:inline-block
+}
