@@ -18,7 +18,11 @@ body {
   float: right;
 }
 
+/* I had a class added on to the 'X' button to try and play with formatting for a while, but it
+ended up breaking the jQuery since I'd already written the button code to refer to it's parent.
+Adding another class effectively made the jQuery function remove the button itself and not the
+text item. left the class here just for fun and to work on commenting */
 .xBtn {
   /*float: right;*/
-  display:inline-block
+  display:inline-block;
 }
